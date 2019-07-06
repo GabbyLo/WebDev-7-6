@@ -64,3 +64,24 @@ function multiple()
 
 
 }
+
+function execute(){
+    var x = document.getElementById('1').value;
+    var y = document.getElementById('2').value;
+    var sum = Number(x) + Number(y);
+    var a = '50';
+    
+    alert('Sum is: '+sum);
+}
+
+// JAVASCRIPT ACTIVITY
+
+// 1. CREATE TWO TEXBOXES AND 4 BUTTONS
+// 2. DISPLAY THE SUM, DIFFERENCE, PRODUCT AND QUOTIENT
+// BASED FROM THE SELECTED BUTTON
+// 3. DISPLAY ERROR IF ONE OF THE TEXTBOXES IS EMPTY
+// 4. DISPLAY ERROR IF ONE OF THE TEXTBOXES IS NOT A NUMBER
+  
+// if(isNaN(x) || x==""){
+//     errror
+// }
